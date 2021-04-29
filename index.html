@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+            <title>Car Racing</title>
+            <style>
+                body{
+	background-image: url("background.gif");
+    background-position: center;
+    background-size: cover;
+	background-repeat: no-repeat;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+    border-style:ridge;
+
+}
+
+h1,h4
+{
+	color: white !important;
+}
+            </style>
+    </head>
+    <body onload="Race()">
+        <center>
+        <h1>Car Racing</h1>
+
+        <canvas style="height: 600px; width: 800px;" id="myCanvas">
+
+        </canvas>
+
+        <h4>
+            <b class="text-danger">NOTE : </b> IF CARS ARE NOT VISIABLE, PRESS ANY ARROW KEY. <br>
+            <b class="text-danger">NOTE : </b> ARROW KEYS ARE FOR THE ORANGE CAR AND W,A,S,D ARE FOR THE GREEN <br><br><br>
+        </h4>
+        </center>
+        <script src="main.js">
+        </script>
+        <script async src="https://drv.tw/inc/wd.js"></script>
+    </body>
+</html>
